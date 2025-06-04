@@ -65,5 +65,11 @@ while (true)
         case "ZOBRAZIT":
             Zobrazit();
             break;
+        case "EXIT":
+            Environment.Exit(0);
+            break;
+        default:
+            Console.WriteLine("Neplatný příkaz.");
+            break;
     }
 }
